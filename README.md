@@ -140,9 +140,4 @@ tilt,light,label
 
 This project is open-source under the **MIT License**.
 
-```
 
----
-
-👉 Do you want me to also include **badges** (like build status, license, made with ESP32, etc.) at the top of your README for GitHub styling?
-```
