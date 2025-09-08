@@ -108,7 +108,7 @@ tilt,light,label
 3. Install required libraries:
 
    * Adafruit_MPU6050
-   * `dafruit_SSD1306
+   * Adafruit_SSD1306
    * Adafruit_GFX
    * TensorFlowLite_ESP32
 4. Upload code to ESP32.
