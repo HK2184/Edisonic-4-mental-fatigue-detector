@@ -6,9 +6,9 @@ A smart Iot Sensing device used to detect mental fatigue
 
 ## 📌 Project Overview
 The **Mental Fatigue Detector** is an **AIoT-based system** designed for the **SmartCityX Hackathon (Intel 1D Track)**.  
-It monitors **head tilt posture (MPU6050)** and **ambient lighting (LM393 LDR)** using an **ESP32**, and runs a **TinyML model (TensorFlow Lite Micro)** locally to detect early signs of mental fatigue.  
+It monitors **head tilt posture (MPU6050)** and **ambient lighting (LM393 LDR)** using an **ESP32**, and runs a **Edge Impulse Classification NN moddel** locally to detect early signs of mental fatigue.  
 
-When fatigue is detected, the system displays alerts on an OLED screen and can also push data to the cloud (Firebase) for **real-time monitoring**.  
+When fatigue is detected, the system displays alerts on an OLED screen and can also push data to the cloud (Azure API ) for **real-time monitoring**.  
 This project addresses **urban healthcare challenges** by helping students and professionals maintain focus and reduce fatigue-related health issues.  
 
 ---
