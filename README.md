@@ -39,10 +39,9 @@ This project addresses **urban healthcare challenges** by helping students and p
 
 ## 💻 Software Stack
 - **Arduino IDE / PlatformIO** (ESP32 code)  
-- **TensorFlow Lite Micro** (TinyML model deployment)  
-- **Python + Jupyter Notebook** (Model training & conversion to `.tflite`)  
-- **Firebase (Realtime Database)** – optional cloud monitoring  
-- **React.js / React Native** – mobile app / web frontend  
+- **Edge Impulse Classifier NN model** (model deployment)  
+- **Azure Storage ** – optional cloud data import  
+  
 
 ---
 
@@ -70,7 +69,7 @@ Mental-Fatigue-Detector/
 ## 📊 Dataset Collection
 - ESP32 logs **tilt angle (degrees)** + **light state (bright/dark)**.  
 - Labels are added manually (0 = Normal`, `1 = Fatigue`).  
-- Example `dataset.csv:
+
 
 
 tilt,light,label
@@ -118,12 +117,7 @@ tilt,light,label
 
 1. Open model_training/train_model.ipynb in **Google Colab / Jupyter**.
 2. Train model on dataset/dataset.csv.
-3. Export .tflite → deploy to ESP32.
-
-### 🔹 Web App 
-
-* Web App (React.js + Firebase Hosting).
-
+3. Export model → deploy to ESP32.
 
 
 
