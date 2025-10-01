@@ -84,10 +84,8 @@ tilt,light,label
 
 ## 🧑‍💻 Model Training
 1. Train a small **Neural Network** on collected dataset.  
-2. Convert trained model → **TensorFlow Lite** (`.tflite`).  
-3. Convert `.tflite` → **C array (`model_data.h`)**:
- bash
- xxd -i mental_fatigue_model.tflite > model_data.h
+2. Convert trained model → **Edge Impulse** (`.tflite`).
+3. Deploy model using esp32 on edge imopulse 
 
 
 4. Upload to ESP32 sketch.
@@ -115,11 +113,13 @@ tilt,light,label
 
 ### 🔹 Model Training
 
-1. Open model_training/train_model.ipynb in **Google Colab / Jupyter**.
-2. Train model on dataset/dataset.csv.
+1. Open model_training/train_model.ipynb in **Edge Impulse**.
+2. Train model on Impulse.
 3. Export model → deploy to ESP32.
 
 
+## Edge Impulse
+https://studio.edgeimpulse.com/public/790263/live 
 
 ## 👥 Team – Edisonic 4
 
