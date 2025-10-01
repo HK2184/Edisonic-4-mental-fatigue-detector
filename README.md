@@ -53,7 +53,7 @@ Mental-Fatigue-Detector/
 │   └── fatigue\_detector.ino
 │── dataset/                    # Collected ESP32 sensor data
 │   └── dataset.csv
-│── model\_training/             # Jupyter notebooks for ML training
+│── model\_training/             # Edge Impulse for ML training
 │   └── train\_model.ipynb
 │── models/                     # Exported models
 │   └── mental\_fatigue\_model.tflite
