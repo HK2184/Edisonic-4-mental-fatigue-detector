@@ -84,7 +84,7 @@ tilt,light,label
 
 ## 🧑‍💻 Model Training
 1. Train a small **Neural Network** on collected dataset.  
-2. Convert trained model → **Edge Impulse** (`.tflite`).
+2. Convert trained model → **Edge Impulse** 
 3. Deploy model using esp32 on edge imopulse 
 
 
